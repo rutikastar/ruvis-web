@@ -10,14 +10,7 @@ export default function Software() {
         at every level of their organization.
       </p>
 
-      {/* Competency Image */}
-      <div className="image-center">
-        <img
-          src="code-coding-data-574071.jpg"
-          alt="Software Coding"
-          className="service-img"
-        />
-      </div>
+      
 
       {/* Capabilities Section */}
       <div className="service-block">
@@ -66,11 +59,7 @@ export default function Software() {
             </li>
           </ul>
         </div>
-        <img
-          src="female-using-computer.jpg"
-          alt="Software Project Management"
-          className="service-img"
-        />
+        
       </div>
 
       {/* Skills Section */}
