@@ -143,8 +143,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  min-height: 90vh;
 
   display: flex;
   flex-direction: column;
@@ -171,4 +170,49 @@ body {
   color: #4fc3f7; /* light blue */
   font-weight: 600;
 }
+.tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #1e3a5f;
+  border-radius: 6px;
+}
+
+.tab:hover {
+  background: #e5e9ee;
+}
+
+.tab.active {
+  background: #1e3a5f;
+  color: white;
+}
+/* CAD Gallery Styling */
+.cad-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.cad-gallery img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cad-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
 
