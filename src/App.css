@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+/* General Layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8; /* soft light grey */
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #1e3a5f; /* dark navy-blue */
+  padding: 15px 30px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #dbe2ea; /* subtle grey */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #f1f5f9;
+  font-weight: 500;
 }
+
+.nav-links a:hover {
+  color: #a9b7c9; /* muted grey-blue hover */
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #1e3a5f, #3b4b61); /* navy to grey-blue */
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: white;
+  color: #1e3a5f;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #e5e9ee;
+}
+
+/* Sections */
+.section {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+  color: #1e3a5f; /* navy accent headings */
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #cfd4da;
+  border-radius: 6px;
+  background: #f9fbfd;
+}
+
+.contact-form button {
+  background: #1e3a5f;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #162c47; /* darker navy hover */
+}
+
+/* Footer */
+.footer {
+  background: #2a3d55; /* blackish-blue grey */
+  color: #dbe2ea;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Centered Image */
+.image-center {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.full-width {
+  width: 100%;
+}
+/* Hero with Background Image (Parallax Effect) */
+.hero-bg {
+  /* background-image: url("/engineering-bg.jpg");  REMOVE THIS LINE */
+  background-attachment: fixed; /* creates parallax effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-bg h1,
+.hero-bg p {
+  color: white;
+}
+
+.contrast-blue {
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.dark-blue {
+  color: #4fc3f7; /* light blue */
+  font-weight: 600;
+}
+
