@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ruvis-web/static/css/main.a43abae4.css",
+    "main.js": "/ruvis-web/static/js/main.3e5956b2.js",
+    "static/js/453.f107b7b0.chunk.js": "/ruvis-web/static/js/453.f107b7b0.chunk.js",
+    "static/media/cad2.jpg": "/ruvis-web/static/media/cad2.d3240d219ea364b01df2.jpg",
+    "static/media/cad1.jpg": "/ruvis-web/static/media/cad1.1c1a8e91e436f929595a.jpg",
+    "static/media/cad4.jpg": "/ruvis-web/static/media/cad4.dd86c8d6ea4af52d2fae.jpg",
+    "static/media/cad3.jpg": "/ruvis-web/static/media/cad3.8c20bbfa672af84cbba4.jpg",
+    "static/media/engineering-bg.jpg": "/ruvis-web/static/media/engineering-bg.4dc17b57c06fccee0b1d.jpg",
+    "index.html": "/ruvis-web/index.html",
+    "main.a43abae4.css.map": "/ruvis-web/static/css/main.a43abae4.css.map",
+    "main.3e5956b2.js.map": "/ruvis-web/static/js/main.3e5956b2.js.map",
+    "453.f107b7b0.chunk.js.map": "/ruvis-web/static/js/453.f107b7b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a43abae4.css",
+    "static/js/main.3e5956b2.js"
+  ]
+}
