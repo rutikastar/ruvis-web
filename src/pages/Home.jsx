@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import bgImage from "../engineering-bg.jpg"; // relative path
 
 function Home() {
   const items = [
@@ -44,7 +45,7 @@ function Home() {
       {/* Hero Section */}
       <div
         style={{
-          backgroundImage: 'url("/engineering-bg.jpg")',
+          backgroundImage: `url(${bgImage})`,
           backgroundAttachment: "fixed",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

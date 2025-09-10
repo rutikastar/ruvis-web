@@ -1,4 +1,8 @@
 import React from "react";
+import cad1 from "../cad1.jpg";
+import cad2 from "../cad2.jpg";
+import cad3 from "../cad3.jpg";
+import cad4 from "../cad4.jpg";
 
 function CAD() {
   return (
@@ -19,10 +23,10 @@ function CAD() {
 
       {/* Image Gallery */}
       <div className="cad-gallery">
-        <img src="/images/cad/cad1.jpg" alt="CAD Design Example 1" />
-        <img src="/images/cad/cad2.jpg" alt="CAD Design Example 2" />
-        <img src="/images/cad/cad3.jpg" alt="CAD Design Example 3" />
-        <img src="/images/cad/cad4.jpg" alt="CAD Design Example 4" />
+        <img src={cad1} alt="CAD Design Example 1" />
+        <img src={cad2} alt="CAD Design Example 2" />
+        <img src={cad3} alt="CAD Design Example 3" />
+        <img src={cad4} alt="CAD Design Example 4" />
       </div>
     </div>
   );
